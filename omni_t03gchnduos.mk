@@ -26,11 +26,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_minimal.mk)
 $(call inherit-product, device/samsung/t03gchnduos/device.mk)
 
 # Inherit some common Twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := t03gchnduos
-PRODUCT_NAME := twrp_t03gchnduos
+PRODUCT_NAME := omni_t03gchnduos
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N7102
 PRODUCT_MANUFACTURER := samsung
