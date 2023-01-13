@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_t03gchnduos.mk
+     $(LOCAL_DIR)/omni_t03gchnduos.mk
